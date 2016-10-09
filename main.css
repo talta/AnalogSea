@@ -13,36 +13,47 @@ body{
 .logo {
 	height: 35px;
 	display: block;
-	margin: 30 auto 0;
-	/*width: auto;*/
+	margin: 30px auto 0;
+	width: auto;
 }
 
 
 
 .form_wrap{
 	
-	padding-left: 15px;
-	padding-right: 15px; 
+	padding: 40px; 
 	background-color: white;
 	/*border: 1px solid black;*/
-	margin-left: auto;
-	margin-right: auto;
+	margin: 20px auto;
+	width: 400px;
+	border-radius: 3px;
 }
 
 
-.input_wrap{
-	text-align: left;
+
+input [type='email'],
+input [type='password'],
+button [type='submit'] 
+{
+	border-radius: 3px;
+	display: block;
+	margin: 20px;
+	width: 100%;
+	background-color: blue;
 }
+
+/*
 
 .box{
-	width: 320px;
+
 	border: solid grey 2px;
 	padding-left: 15px
 	padding: 5px;
 	margin-bottom: 5px;
 	display: block;
-}
 
+}
+*/
 
 .form_wrap fieldset{
 	padding-left: 0px;
@@ -50,10 +61,15 @@ body{
 }
 
 
-.form_text_wrap{
-	margin-left: auto;
-	margin-right: auto;
 
+.form_wrap legend{
+	text-align: center;
+	margin: 0 auto 45px;
+	color: lightslategrey;
+	font-weight: 300;
+	font-size: 35px;
+	letter-spacing: 0;
+	line-height:38px;
 }
 
 
@@ -62,9 +78,7 @@ button {
 
 }
 
-.text_color_wrap{
-	color: white;
-}
+
 
 /*
 form h1{
