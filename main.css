@@ -21,25 +21,31 @@ body{
 
 .form_wrap{
 	
-	padding: 40px; 
+	padding: 15px; 
 	background-color: white;
 	/*border: 1px solid black;*/
 	margin: 20px auto;
-	width: 400px;
+	width: 100%;
 	border-radius: 3px;
+	text-align: left;
+
+	height: auto;
 }
 
 
 
-input [type='email'],
-input [type='password'],
-button [type='submit'] 
-{
+input[type='email'],
+input[type='password'],
+button[type='submit'] {
 	border-radius: 3px;
 	display: block;
-	margin: 20px;
+	margin: 20px 0;
 	width: 100%;
-	background-color: blue;
+	text-align: left;
+	height: auto;
+	font-size: 18px;
+	padding: 5px;
+	transition: opacity 0.4s;
 }
 
 /*
@@ -64,7 +70,7 @@ button [type='submit']
 
 .form_wrap legend{
 	text-align: center;
-	margin: 0 auto 45px;
+	margin: 0 auto 30px;
 	color: lightslategrey;
 	font-weight: 300;
 	font-size: 35px;
@@ -78,7 +84,9 @@ button {
 
 }
 
-
+.form_wrap p{
+	text-align: center;
+}
 
 /*
 form h1{
